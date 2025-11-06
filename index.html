@@ -18,6 +18,10 @@
   <!-- Library TypeIt -->
   <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
 
+  <!-- Preconnect and Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@400;600;700&family=Itim&family=Nunito+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
   <!-- CSS Custom -->
   <style>
     /* Definisi gaya CSS */
@@ -37,19 +41,13 @@
       }
     }
 
-    @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
-    @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
-    @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
-    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
-    @import url("https://fonts.googleapis.com/css2?family=Inter&family=Itim&display=swap");
-
     :root {
-      --poppins: "Poppins", sans-serif;
-      --nunito: "Nunito Sans", sans-serif;
-      --caveat: "Caveat", cursive;
-      --quicksand: "Quicksand", sans-serif;
-      --itim: "Itim", cursive;
-      --inter: "Inter", sans-serif;
+      --poppins: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --nunito: "Nunito Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --quicksand: "Quicksand", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --inter: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --itim: "Itim", "Comic Sans MS", "Comic Sans", cursive; /* decorative only */
+      --caveat: "Caveat", "Brush Script MT", cursive;        /* decorative only */
     }
 
     html,
@@ -60,7 +58,7 @@
 
     body {
       background: #000;
-      font-family: var(--itim);
+      font-family: var(--inter); /* or var(--poppins) */
       font-size: 14px;
       color: #fff;
       text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
@@ -448,7 +446,7 @@ footer a {
         <div id="stiker1" class="scale0 stiker">
           <img src="glg.gif" />
         </div>
-        <h1 id="teks1" class="scale0 itim" style="font-size: 20px">
+        <h1 id="teks1" class="scale0" style="font-size: 20px">
           this is for youuu beby dee 🫶<br />
           ⇒ ⇒ ⇒
         </h1>
@@ -459,7 +457,7 @@ footer a {
         <div id="stiker2" class="scale0 stiker">
           <img src="emh.gif" />
         </div>
-        <h1 id="teks2" class="scale0 itim" style="font-size: 19px">
+        <h1 id="teks2" class="scale0" style="font-size: 19px">
           ciee 07 - November, whose birthday is today 💞<br /><br /><span style="font-size: 16px; font-weight: 400">swipe & read to the end!</span><br /><br />
             ⇒ ⇒ ⇒
         </h1>
@@ -472,7 +470,7 @@ footer a {
         </div>
         <!-- Konten teks -->
         <div id="scroll-container" class="blocktext">
-          <p id="teks3" class="itim" style="font-size: 16px; margin-left: 40px">
+          <p id="teks3" class="Caveat" style="font-size: 16px; margin-left: 40px">
             <span class="pink">Hai</span> sayangkuuu cintakuuuuuu
             duniakuuu semestakuuuuuu my fav person of all time deeee, <br><br /><b class="putih merah"><i>happy birthday yaaa 💐</i></b><br />semogaa
             dengan bertambahnya usiamuuu bisaa menjadiii
@@ -495,7 +493,7 @@ footer a {
         <div id="stiker4" class="scale0 stiker">
           <img src="propose.gif" />
         </div>
-        <h1 id="teks4" class="scale0 itim" style="font-size: 19px">
+        <h1 id="teks4" class="scale0" style="font-size: 19px">
           will you be my love once again? 💍<br /><br /><span style="font-size: 16px; font-weight: 400">Kirim Jawaban di WA 🫶</span><br /><br />
             
         </h1>
